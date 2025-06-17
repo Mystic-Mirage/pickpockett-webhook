@@ -1,0 +1,9 @@
+[project]
+name = "pickpockett-webhook"
+version = "0.1.0"
+description = "Pickpockett helper for flushing old downloads"
+requires-python = ">=3.13"
+dependencies = [
+    "microdot>=2.3.2",
+    "requests>=2.32.4",
+]
